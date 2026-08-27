@@ -3,31 +3,35 @@ import { motion, AnimatePresence } from 'motion/react';
 import { Plus, X, Upload, Camera, Sparkles, Heart, ZoomIn, Trash2 } from 'lucide-react';
 import { MemoryPhoto } from '../types';
 import { playSoftBell } from '../utils/audio';
+import memoryOne from '../assets/images/memory-1.jpg';
+import memoryTwo from '../assets/images/memory-2.jpg';
+import memoryThree from '../assets/images/memory-3.jpg';
+import memoryFour from '../assets/images/memory-4.jpg';
 
 const defaultMemories: MemoryPhoto[] = [
   {
     id: '1',
     title: 'Ordinary College Days',
     caption: "One of those quiet campus days I'll remember forever.",
-    imageUrl: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: memoryOne,
   },
   {
     id: '2',
     title: 'Unexpected Smiles',
     caption: "Didn't know this simple moment would become a lifelong memory.",
-    imageUrl: 'https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: memoryTwo,
   },
   {
     id: '3',
     title: 'Unbreakable Support',
     caption: 'The moments of genuine care that mattered the most.',
-    imageUrl: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: memoryThree,
   },
   {
     id: '4',
     title: 'A Bond for Life',
     caption: 'Forever a sister in my heart and in my prayers.',
-    imageUrl: 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000&auto=format&fit=crop',
+    imageUrl: memoryFour,
   },
 ];
 

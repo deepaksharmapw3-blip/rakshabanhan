@@ -1,0 +1,6 @@
+{
+  "name": "Raksha Bandhan - A Tribute to Arunima",
+  "description": "An interactive and heartfelt tribute website for Arunima celebrating brother-sister bond with starry cosmos, memories gallery, customizable letter, ambient music, and 3D gift box.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
